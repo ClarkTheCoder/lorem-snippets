@@ -1,0 +1,29 @@
+{
+    "name": "lorem-snippet",
+    "displayName": "lorem-snippet",
+    "description": "Generates and inserts lorem ipsum text into Visual Studio Code.",
+    "version": "1.0.0",
+    "publisher": "Carson Clark",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
